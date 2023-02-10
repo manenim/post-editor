@@ -1,7 +1,7 @@
 
 const LeftSideBar = () => {
   return (
-      <div className="w-[20%] border-outline bg-grey border-l-[1px]">
+      <div className="w-[20%] border-outline bg-grey border-l-[1px] hidden lg:block">
           <div className="wrapper w-[84%] mx-auto">
               <h2 className="text-[1.8rem] m-4 text-principal font-semibold">Preview Post</h2>
 

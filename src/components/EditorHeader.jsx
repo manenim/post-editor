@@ -2,7 +2,7 @@ import React from 'react'
 
 const EditorHeader = () => {
   return (
-    <div className='bg-grey'>
+    <div className='bg-grey hidden md:block'>
         <div className="wrapper w-[86%] mx-auto flex justify-between items-center h-16">
             <img src="/icons/Icons/Formatting/bold.svg" alt="bold" />
             <img src="/icons/Icons/Formatting/italic.svg" alt="bold" />

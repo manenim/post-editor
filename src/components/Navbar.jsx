@@ -6,8 +6,8 @@ const Navbar = () => {
               <div className="logo">
                   <img src="/icons/Logo.svg" alt="logo" className="w-24"/>
              </div>
-              <div className="text">
-                  <h2 className="text-grey text-[.6rem">English (Oral-pronunctiation)</h2>
+              <div className="text hidden md:block">
+                  <h2 className="text-grey">English (Oral-pronunctiation)</h2>
              </div>
               <div className="avatar">
                 <img src="/icons/avatar.jpg" alt="avatar" className="w-10 h-10 rounded-full"/>

@@ -2,7 +2,7 @@ import EditorHeader from "./EditorHeader"
 
 const TextEditor = () => {
   return (
-      <div className="w-[58%]">
+      <div className="md:w-[68%] lg:w-[58%]">
           <EditorHeader />
 
           <div className="editor bg-white w-[92%] mx-auto mt-6 shadow-shad">

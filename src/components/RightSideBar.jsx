@@ -1,9 +1,11 @@
+import { Checkbox } from '@mui/material'
 import {AiFillCloseCircle} from 'react-icons/ai'
+import Slide from './Slide'
 
 const RightSideBar = () => {
   return (
-      <div className="w-[22%] border-outline border-l-[1px] border-[1px]">
-          <div className="w-[88%] mx-auto">
+      <div className="md:w-[32%] lg:w-[24%] hidden md:block border-outline border-l-[1px] border-[1px]">
+          <div className="w-[90%] mx-auto pb-28">
               <h2 className="text-[1.6rem] mt-4 text-principal font-semibold">Create Post</h2>
 
               <div className="text-box mt-6">
@@ -105,19 +107,89 @@ const RightSideBar = () => {
                     </div>
             
                     <div className="tag bg-[rgba(0,0,0,.06)] flex items-center justify-between rounded-2xl py-1">
-                        <p className="text-[.9rem] font-semibold pl-2">Tone 3</p>
+                        <p className="text-[.9rem] font-semibold pl-2">Tone 4</p>
               {/* <img src="/icons/.svg" alt="" /> */}
                           <AiFillCloseCircle className="text-[rgba(0,0,0,.1)] mr-2" />
                   </div>
             
                     <div className="tag bg-[rgba(0,0,0,.06)] flex items-center justify-between rounded-2xl py-1">
-                        <p className="text-[.9rem] font-semibold pl-2">Tone 3</p>
+                        <p className="text-[.9rem] font-semibold pl-2">Tone 5</p>
               {/* <img src="/icons/.svg" alt="" /> */}
                           <AiFillCloseCircle className="text-[rgba(0,0,0,.1)] mr-2" />
                     </div>
                   </div>
 
+        </div>
+        
+
+        {/* RANGE SLIDER  */}
+        <div className="tone mt-8">
+            <div className="text-wrapper flex justify-between mb-1">
+                <h3 className="mr-2 text-[1.1rem]">Placeholder</h3>
+            </div>
+
+            <Slide/>     
+        </div>
+        
+
+
+
+        {/* SOCIAL MEDIA  */}
+
+        <div className="tone mt-8">
+            <div className="text-wrapper flex justify-between mb-1">
+                <h3 className="mr-2 text-[1.1rem]">Select Social Media</h3>
+            </div>
+          
+          <div className="socials w-[86%]">
+
+            <div className="social flex items-center justify-between mt-4">
+              <div className="flex items-center">
+                <img src="icons/instagram-5 logo-1.svg" alt="social" className='mr-[.8rem]' />
+                <p>Instagram</p>
               </div>
+              <Checkbox />
+            </div>
+
+            <div className="social flex items-center justify-between my-4">
+              <div className="flex items-center">
+                <img src="icons/Twitter logo-1.svg" alt="social" className='mr-[.8rem]' />
+                <p>Instagram</p>
+              </div>
+              <Checkbox />
+            </div>
+
+
+            <div className="social flex items-center justify-between my-4">
+              <div className="flex items-center">
+                <img src="icons/Linkedin logo.svg" alt="social" className='mr-[.8rem]' />
+                <p>Instagram</p>
+              </div>
+              <Checkbox />
+            </div>
+
+            
+            <div className="social flex items-center justify-between my-4">
+              <div className="flex items-center">
+                <img src="icons/Facebook logo-1.svg" alt="social" className='mr-[.8rem]' />
+                <p>Instagram</p>
+              </div>
+              <Checkbox />
+            </div>
+
+          </div>
+        </div>
+
+        
+
+        {/* SUBMIT BUTTON  */}
+
+        <div className="buttonn">
+          <button className="w-full h-10 bg-principal text-white rounded-sm mt-14 flex items-center justify-center">
+            <p className="mr-1">Generate</p>
+            <img src="icons/arrow-right.svg" alt="arrow" className='mt-[4px]'/>
+          </button>
+        </div>
 
 
 
