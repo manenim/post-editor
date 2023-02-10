@@ -27,7 +27,7 @@ const RightSideBar = () => {
                       <h3 className="mr-2 text-[1.1rem]">Media Content</h3>
                       <img src="/icons/information-circle.svg" alt="info" />
                     </div>
-                  <div className="flex border-2 items-center border-rounded-md border-dashed py-2 px-4 border-principal">
+                  <div className="flex border-2 cursor-pointer items-center border-rounded-md border-dashed py-2 px-4 border-principal">
                     
                       <img src="/icons/UploadIcon.svg" alt="media" className="w-12 mr-2" />
 
